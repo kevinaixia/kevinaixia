@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services de Ménage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('https://via.placeholder.com/1500x400') no-repeat center/cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+        .section h2 {
+            color: #4CAF50;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Services de Ménage Pro</h1>
+    <p>Nettoyage professionnel pour votre maison et vos bureaux</p>
+</header>
+
+<nav>
+    <a href="#services">Nos Services</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">À propos</a>
+</nav>
+
+<div class="hero">
+    <h1>Un intérieur propre, une vie meilleure !</h1>
+    <p>Confiez-nous le soin de rendre votre espace impeccable</p>
+</div>
+
+<section id="services" class="section">
+    <h2>Nos Services</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Nettoyage maison">
+            <h3>Nettoyage de Maison</h3>
+            <p>Nous offrons des services de nettoyage approfondi pour votre domicile.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Nettoyage bureau">
+            <h3>Nettoyage de Bureaux</h3>
+            <p>Des espaces de travail propres pour une productivité optimale.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Service sur mesure">
+            <h3>Service sur mesure</h3>
+            <p>Personnalisez nos services selon vos besoins spécifiques.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>À propos</h2>
+    <p>Nous sommes une équipe dédiée au nettoyage de qualité, avec plus de 10 ans d'expérience dans le domaine.</p>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contactez-nous</h2>
+    <p>Email : contact@menagepro.com</p>
+    <p>Téléphone : 06 00 00 00 00</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Services de Ménage Pro. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
